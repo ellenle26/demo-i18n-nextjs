@@ -1,21 +1,21 @@
 ## POKEDEX
 Description: demo for multi-language site in nextjs, using excel
 
-public
-src
- ┣ pages
- ┃ ┣ _app.tsx
- ┃ ┣ index.css
- ┃ ┗ index.tsx
- ┗ utils
-   ┣ locales
-   ┃ ┣ en
-   ┃ ┃ ┗ en.json
-   ┃ ┗ ja
-   ┃ ┃ ┗ ja.json
-   ┣ lang.js
-   ┣ langType.ts
-   ┣ langs.xlsx
+public\
+src\
+ ┣ pages\
+ ┃ ┣ _app.tsx\
+ ┃ ┣ index.css\
+ ┃ ┗ index.tsx\
+ ┗ utils\
+   ┣ locales\
+   ┃ ┣ en\
+   ┃ ┃ ┗ en.json\
+   ┃ ┗ ja\
+   ┃ ┃ ┗ ja.json\
+   ┣ lang.js\
+   ┣ langType.ts\
+   ┣ langs.xlsx\
    ┗ useLocale.ts
 
 ### Run locally
