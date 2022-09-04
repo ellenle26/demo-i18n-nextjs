@@ -8,7 +8,7 @@ const FILE_PATH = "./src/utils/langs.xlsx";
 const translate = () => {
   const langFile = new Excel.Workbook();
   langFile.xlsx.readFile(FILE_PATH).then(() => {
-    const sheet = langFile.getWorksheet(1);
+    const sheet = langFile.worksheets[0];
 
     // get key
     let keys = sheet
