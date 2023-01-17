@@ -18,7 +18,6 @@ const Index: NextPage = () => {
   const [time, setTime] = useState<string>("");
 
   const getPokemon = () => {
-    console.log("test");
     setLoading(true);
     const url = `https://pokeapi.co/api/v2/pokemon/${pokemonNum}`;
     fetch(url).then((res) => {
