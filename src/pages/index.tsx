@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { NextPage } from 'next';
 import { useEffect, useState } from 'react';
 import { useLocale } from '../utils/useLocale';

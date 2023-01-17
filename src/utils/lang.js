@@ -22,7 +22,6 @@ const translate = () => {
       langTypeData.push(`${key} = '${key}',`);
     })
     let langType =  `${langTypeData.join('\n')}`;
-    console.log(`Exported to lang.ts`);
     fs.writeFileSync(path.join(__dirname, "./langType.ts"), langType);
 
     // export languages
